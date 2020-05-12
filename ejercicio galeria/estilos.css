@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    height: auto;
+    font-family: arial;
+    text-align: center;
+}
+h1{
+
+}
+main{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.imgs{
+    width: 28%;
+    height: 300px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+#img1{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+#img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.boton{
+    width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 2px;
+}
+#btn_1{
+    margin-top: 50px;
+}
